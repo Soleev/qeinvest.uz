@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0;list-style: none;}
+/*
+KISSY CSS Reset
+зРЖењµпЉЪ1. reset зЪДзЫЃзЪДдЄНжШѓжЄЕйЩ§жµПиІИеЩ®зЪДйїШиЃ§ж†ЈеЉПпЉМињЩдїЕжШѓйГ®еИЖеЈ•дљЬгАВжЄЕйЩ§еТМйЗНзљЃжШѓзіІеѓЖдЄНеПѓеИЖзЪДгАВ
+2. reset зЪДзЫЃзЪДдЄНжШѓиЃ©йїШиЃ§ж†ЈеЉПеЬ®жЙАжЬЙжµПиІИеЩ®дЄЛдЄАиЗіпЉМиАМжШѓеЗПе∞СйїШиЃ§ж†ЈеЉПжЬЙеПѓиГљеЄ¶жЭ•зЪДйЧЃйҐШгАВ
+3. reset жЬЯжЬЫжПРдЊЫдЄАе•ЧжЩЃйАВйАЪзФ®зЪДеЯЇз°Аж†ЈеЉПгАВдљЖж≤°жЬЙйУґеЉєпЉМжО®иНРж†єжНЃеЕЈдљУйЬАж±ВпЉМи£БеЙ™еТМдњЃжФєеРОеЖНдљњзФ®гАВ
+зЙєиЙ≤пЉЪ1. йАВеЇФдЄ≠жЦЗпЉЫ2. еЯЇдЇОжЬАжЦ∞дЄїжµБжµПиІИеЩ®гАВ
+зїіжК§пЉЪзОЙдЉѓ<lifesinger@gmail.com>, ж≠£жЈ≥<ragecarrier@gmail.com>
+ */
+
+/** жЄЕйЩ§еЖЕе§ЦиЊєиЈЭ **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements зїУжЮДеЕГзі† */
+dl, dt, dd, ul, ol, li, /* list elements еИЧи°®еЕГзі† */
+pre, /* text formatting elements жЦЗжЬђж†ЉеЉПеЕГзі† */
+form, fieldset, legend, button, input, textarea, /* form elements и°®еНХеЕГзі† */
+th, td /* table elements и°®ж†ЉеЕГзі† */ {
+  margin: 0;
+  padding: 0;
+}
+
+/** иЃЊзљЃйїШиЃ§е≠ЧдљУ **/
+body,
+button, input, select, textarea /* for ie */ {
+  font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* е∞ЖжЦЬдљУжЙґж≠£ */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* зїЯдЄАз≠ЙеЃље≠ЧдљУ */
+small { font-size: 12px; } /* е∞ПдЇО 12px зЪДдЄ≠жЦЗеЊИйЪЊйШЕиѓїпЉМиЃ© small ж≠£еЄЄеМЦ */
+
+/** йЗНзљЃеИЧи°®еЕГзі† **/
+ul, ol { list-style: none; }
+
+/** йЗНзљЃжЦЗжЬђж†ЉеЉПеЕГзі† **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+/** йЗНзљЃи°®еНХеЕГзі† **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img жР≠иљ¶пЉЪиЃ©йУЊжО•йЗМзЪД img жЧ†иЊєж°Ж */
+button, input, select, textarea { font-size: 100%; } /* дљњеЊЧи°®еНХеЕГзі†еЬ® ie дЄЛиГљзїІжЙње≠ЧдљУе§Іе∞П */
+/* ж≥®пЉЪoptgroup жЧ†ж≥ХжЙґж≠£ */
+
+/** йЗНзљЃи°®ж†ЉеЕГзі† **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* жЄЕйЩ§жµЃеК® */
+.ks-clear:after, .clear:after {
+  content: '\20';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.ks-clear, .clear {
+  *zoom: 1;
+}
+
+.main {padding: 30px 100px;}
+.main h1{font-size:36px; color:#333; text-align:left;margin-bottom:30px; border-bottom: 1px solid #eee;}
+
+.helps{margin-top:40px;}
+.helps pre{
+  padding:20px;
+  margin:10px 0;
+  border:solid 1px #e7e1cd;
+  background-color: #fffdef;
+  overflow: auto;
+}
+
+.icon_lists li{
+  float:left;
+  width: 100px;
+  height:180px;
+  text-align: center;
+}
+.icon_lists .icon{
+  font-size: 42px;
+  line-height: 100px;
+  margin: 10px 0;
+  color:#333;
+  -webkit-transition: font-size 0.25s ease-out 0s;
+  -moz-transition: font-size 0.25s ease-out 0s;
+  transition: font-size 0.25s ease-out 0s;
+
+}
+.icon_lists .icon:hover{
+  font-size: 100px;
+}
